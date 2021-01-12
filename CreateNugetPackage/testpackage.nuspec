@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>testpackage</id>
+    <version>1.0</version>
+    <description>test sec</description>
+    <title>testp</title>
+    <authors>shekh</authors>
+    <owners>shekh</owners>
+  </metadata>
+  <files />
+</package>

@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\siklakh\\source\\repos\\CreateNugetPackage\\CreateNugetPackage\\CreateNugetPackage.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\siklakh\\source\\repos\\CreateNugetPackage\\CreateNugetPackage\\CreateNugetPackage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\siklakh\\source\\repos\\CreateNugetPackage\\CreateNugetPackage\\CreateNugetPackage.csproj",
+        "projectName": "CreateNugetPackage",
+        "projectPath": "C:\\Users\\siklakh\\source\\repos\\CreateNugetPackage\\CreateNugetPackage\\CreateNugetPackage.csproj",
+        "packagesPath": "C:\\Users\\siklakh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\siklakh\\source\\repos\\CreateNugetPackage\\CreateNugetPackage\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\siklakh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://optumnugetgallery.optum.com/api/v2/": {},
+          "http://tfs.optum.com/tfs/Optum/_packaging/Titan-Core/nuget/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.8.3038, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.206, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
